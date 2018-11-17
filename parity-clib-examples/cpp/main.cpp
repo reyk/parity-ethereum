@@ -14,8 +14,6 @@
 // You should have received a copy of the GNU General Public License
 // along with Parity.  If not, see <http://www.gnu.org/licenses/>.
 
-// Note, `nullptr` requires a C++ compiler with C+11 support
-
 #include <cstddef>
 #include <cstdio>
 #include <cstdlib>
@@ -77,7 +75,7 @@ int main() {
 			return 1;
 		}
 
-		if (parity != NULL) {
+		if (parity != nullptr) {
 			parity_destroy(parity);
 		}
 	}
@@ -96,7 +94,7 @@ int main() {
 			return 1;
 		}
 
-		if (parity != NULL) {
+		if (parity != nullptr) {
 			parity_destroy(parity);
 		}
 	}
